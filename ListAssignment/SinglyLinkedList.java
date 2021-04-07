@@ -34,10 +34,10 @@ public class SinglyLinkedList {
         }
     }
     //from here we are going to print the relevant values from the methods above
-        public void printValues(){
+    public void printValues(){
         if(this.head != null){
             Node frogger = this.head;
-            while(frogger.next != null){
+            while(frogger != null){  //removed .next from frogger.next
                 System.out.println(frogger.value);
                 frogger = frogger.next;
             }
