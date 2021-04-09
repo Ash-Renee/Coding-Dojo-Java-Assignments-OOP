@@ -1,5 +1,11 @@
 public class Mammal {
-	public int energyLevel = 100;
+	public int energyLevel;
+	
+	public Mammal() {
+	this.energyLevel = 100;
+	}	
+	
+		
 	public Mammal(int energyLevel) {
 		this.energyLevel = energyLevel;
 	}
@@ -9,3 +15,4 @@ public class Mammal {
 	 return(this.energyLevel); 
 	}
 }
+

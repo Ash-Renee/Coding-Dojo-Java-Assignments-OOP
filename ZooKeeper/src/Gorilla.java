@@ -1,7 +1,7 @@
 public class Gorilla extends Mammal{
 	
-	public Gorilla(int energyLevel) {
-		super(energyLevel);
+	public Gorilla() {
+		super(100);
 	}
 	
 	public void throwSomething() { //it's a void method because it's just printing
